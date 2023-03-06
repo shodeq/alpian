@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#sisi-kiri{
+    width: 75px;
+    height: 100vh;
+}
+.vas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 214, 36);
+    height: 10vh;
+}
+.vas img{
+    height: 30px;
+    width: 30px;
+}
+.medsos{
+    width: 75px;
+    height: 70vh;
+    background-color: rgb(44, 44, 44);
+}
+.medsos ul{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    align-items: center;
+    height: 70vh;
+}
+.medsos ul li{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    margin-top: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+.navbar{
+    height: 20vh;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+#sisi-kanan{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.pencari{
+    width: 50vw;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pencari i:nth-child(1){
+    margin-left: -150px;
+}
+.pencari i:nth-child(2){
+    margin-right: -150px;
+}
+#tengah{
+    width: 50vw;
+}
+.judul{
+    width: 50vw;
+}
+.judul h1{
+    font-size: 4rem;
+    height: 30vh;
+    width: 400px;
+    margin-left: 100px;
+}
+.judul h3{
+    font-size: small;
+    margin-top: 30px;
+    width: 35vw;
+    margin-left: 100px;
+}
+.judul button{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: rgb(36, 214, 36);
+    color: white;
+    box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+    -webkit-box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+    -moz-box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+}
+.bawah{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.inpo{
+    height: 100px;
+    width: 200px;
+}
+.posisi{
+    position: absolute;
+    border-right: 20px rgb(36, 214, 36) solid;
+    right: 550px;
+    bottom: 175px; 
+    box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+    -webkit-box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+    -moz-box-shadow: -3px 40px 39px -13px rgba(36,214,36,0.75);
+    border-radius: 10px;
+    z-index: 99999;
+}
+.posisi img{
+    height: 75px;
+    width: 150px;
+}
+.posisi i{
+    position: absolute;
+    right: -15px;
+    top: 30px;
+    color: white;
+}
+#sisi-akhir {
+    width: 45vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url(../../resource/img/bgkanan.jpeg);
+    background-size: cover;
+    top: 0;
+    right: 0;
+}
+.nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .ikon ul {
+    height: 75px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .ikon ul li {
+    list-style-type: none;
+}
+.nav .ikon ul li a {
+    text-decoration: none;
+    color: black;
+}
+.ikon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.ikon2 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.circle {
+    border: 3px white solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle .play {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(36, 214, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle .play i {
+    color: white;
+}

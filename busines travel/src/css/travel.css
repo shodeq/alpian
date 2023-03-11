@@ -1,571 +1,567 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #f2f3eb;
+body {
+  background-color: #f2f3eb;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 2vw;
-    height: 7vh;
-    margin-right: 2vw;
-    border-radius: 10px;
-    background-color: black;
-    position: fixed;
-    margin-top: -16vh;
-    z-index: 99999;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2vw;
+  height: 7vh;
+  margin-right: 2vw;
+  border-radius: 10px;
+  background-color: black;
+  position: fixed;
+  margin-top: -16vh;
+  z-index: 99999;
 }
 .navbar button {
-    width: 4vw;
-    height: 5vh;
+  width: 4vw;
+  height: 5vh;
+  display: none;
+}
+.kiri {
+  margin-left: 2vw;
+}
+.kiri p {
+  color: white;
+}
+.kiri p i {
+  color: #e2b6cd;
+  margin-right: 5px;
+}
+.isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+}
+.tengah {
+  margin-left: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+}
+.tengah ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7vw;
+  width: 35vw;
+  list-style-type: none;
+}
+.tengah ul li a {
+  text-decoration: none;
+  color: white;
+}
+.kanan {
+  margin-right: 0.2vw;
+}
+.kanan button {
+  color: white;
+  height: 6.3vh;
+  width: 8vw;
+  background-color: black;
+  border: gray 1.5px solid;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  margin-top: 20vh;
+}
+.atas {
+  margin-left: 6vw;
+}
+.atas button {
+  height: 4vh;
+  width: 11vw;
+  font-size: 9px;
+  border-radius: 20px;
+  background-color: white;
+}
+.bawah {
+  margin-left: 6vw;
+  margin-top: 4vh;
+}
+.bawah h1 {
+  font-size: 4rem;
+}
+.bawahlagi {
+  margin-left: 6vw;
+  margin-top: 7vh;
+  width: 40vw;
+}
+.bawahlagi p u {
+  font-weight: bold;
+}
+.palingbawah {
+  margin-left: 6vw;
+  margin-top: 7vh;
+}
+.palingbawah button {
+  height: 7vh;
+  width: 15vw;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+.palingbawah button i {
+  margin-left: 3vw;
+}
+.box {
+  margin-top: 7vh;
+  display: flex;
+  width: 50vw;
+}
+.box-1 {
+  width: 18vw;
+  margin-left: 6vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.isi-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.isi-1 i {
+  font-size: 1.5rem;
+}
+.isi-1 p {
+  height: 0;
+  width: 15.5vw;
+  border: 1px black solid;
+}
+.box-1 h1 {
+  margin-top: 2vh;
+  font-size: 2rem;
+}
+.box-1 p {
+  margin-top: 2vh;
+}
+.box-1 p u {
+  font-weight: bolder;
+}
+.box-1:nth-child(2) {
+  margin-left: 3vw;
+}
+.info-kiri {
+  display: flex;
+  position: relative;
+}
+.plus {
+  position: absolute;
+  top: 13vh;
+  left: -2vw;
+}
+.plus h2 {
+  font-size: 5rem;
+}
+.gambar-kiri {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gambar-1 {
+  background-image: url(../../resource/img/pesiwit.jpg);
+  background-size: cover;
+  height: 30vh;
+  width: 18vw;
+  border-radius: 20px;
+}
+.gambar-1 .satu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  color: white;
+  font-size: small;
+}
+.satu h3 {
+  margin-top: 2vh;
+}
+.satu i {
+  margin-top: 2vh;
+}
+.gambar-1 .dua {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  margin-top: 15vh;
+  color: white;
+}
+.dua h2 {
+  width: 3vw;
+  font-size: 1.5rem;
+}
+.dua .panah {
+  border: 2px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2vw;
+  height: 4vh;
+  border-radius: 50%;
+}
+.gambar-2 {
+  margin-top: 2vh;
+  height: 35vh;
+  width: 18vw;
+  background-color: black;
+  border-radius: 20px;
+}
+.tiga {
+  border-bottom: 2px gray dotted;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: white;
+}
+.empat {
+  border-bottom: 2px gray dotted;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  margin-top: 6vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: white;
+}
+.empat h2 u {
+  text-decoration: none;
+}
+.lima {
+  border-bottom: 2px gray dotted;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: white;
+}
+.kanan-1 {
+  margin-left: 1vw;
+  width: 20vw;
+  height: 35vh;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.enam {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  margin-top: 1vh;
+}
+.enam h3 {
+  margin-top: 1.5vh;
+}
+.enam i {
+  margin-top: 1.5vh;
+}
+.pesawat {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+.pesawat img {
+  border-radius: 50%;
+  height: 20vh;
+  width: 10vw;
+}
+.kanan-1 h2 {
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+}
+.kanan-2 {
+  height: 17.5vh;
+  width: 20vw;
+  margin-left: 1vw;
+  background-color: black;
+  color: white;
+  margin-top: 1vh;
+  border-radius: 20px;
+}
+.atasan {
+  display: flex;
+  position: relative;
+}
+.atasan .nama {
+  margin-left: 1.5vw;
+  /* margin-top: 1vh; */
+  height: 8.75vh;
+  width: 8.5vw;
+  display: flex;
+  align-items: center;
+}
+.atasan .bulat {
+  top: 6vh;
+  left: 9.3vw;
+  position: absolute;
+  display: flex;
+  border: 2px gray solid;
+  height: 3vh;
+  width: 1.5vw;
+  border-radius: 50%;
+}
+.bawahan {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+.kota {
+  height: 8.7vh;
+  width: 9vw;
+  display: flex;
+  align-items: center;
+}
+.jam {
+  height: 8.7vh;
+  width: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-left: 2px gray dotted;
+}
+.kanan-2:nth-child(3) {
+  background-color: rgb(184, 184, 184);
+  color: black;
+}
+.kanan-2:nth-child(3) .jam {
+  border-left: none;
+}
+.kanan-2:nth-child(3) .atasan .nama {
+  width: 8.65vw;
+  border-right: 2px gray dotted;
+}
+.kanan-2:nth-child(3) .atasan .bulat {
+  top: 8.5vh;
+}
+.barcode {
+  height: 25vh;
+  width: 20vw;
+  margin-left: 1vw;
+  margin-top: 1vh;
+  background-color: white;
+  border-radius: 20px;
+}
+.barcode .fly {
+  margin-left: 0.5vw;
+  margin-right: 0.5;
+  height: 5vh;
+  width: 19vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px gray dotted;
+}
+.barcode .fly p {
+  margin-top: 1vh;
+}
+.tanggal {
+  margin-top: 5vh;
+  margin-left: 1vh;
+  margin-right: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qr {
+  display: flex;
+  justify-content: center;
+}
+.qr img {
+  margin-top: 1vw;
+  height: 8vh;
+  width: 18vw;
+}
+@media (width <= 600px) {
+  nav {
+    width: 95vw;
+  }
+  nav .isi .tengah {
     display: none;
-}
-.kiri{
-    margin-left: 2vw;
-    
-}
-.kiri p{
-    color: white;
-}
-.kiri p i{
-    color: #e2b6cd;
-    margin-right: 5px;
-}
-.isi{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 85vw;
-}
-.tengah{
-    margin-left: 7vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80vw;
-}
-.tengah ul{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 7vw;
-    width: 35vw;
-    list-style-type: none;
-}
-.tengah ul li a{
-    text-decoration: none;
-    color: white;
-}
-.kanan{
-    margin-right: 0.2vw;
-}
-.kanan button{
-    color: white;
-    height: 6.3vh;
-    width: 8vw;
-    background-color: black;
-    border: gray 1.5px solid;
-    border-radius: 10px;
-}
-main{
-    display: flex;
-    margin-top: 20vh;
-}
-.atas{
-    margin-left: 6vw;
-}
-.atas button{
-    height: 4vh;
-    width: 11vw;
-    font-size: 9px;
-    border-radius: 20px;
-    background-color: white;
-}
-.bawah{
-    margin-left: 6vw;
-    margin-top: 4vh;
-}
-.bawah h1{
-    font-size: 4rem;
-}
-.bawahlagi{
-    margin-left: 6vw;
-    margin-top: 7vh;
-    width: 40vw;
-}
-.bawahlagi p u{
-    font-weight: bold;
-}
-.palingbawah{
-    margin-left: 6vw;
-    margin-top: 7vh;
-}
-.palingbawah button{
-    height: 7vh;
-    width: 15vw;
-    border-radius: 25px;
-    background-color: black;
-    color: white;
-}
-.palingbawah button i{
-    margin-left: 3vw;
-}
-.box{ 
-    margin-top: 7vh;
-    display: flex;
+  }
+  vav .isi .kanan button {
+    display: none;
+  }
+  nav .kiri {
     width: 50vw;
-}
-.box-1{
-    width: 18vw;
-    margin-left: 6vw;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-}
-.isi-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.isi-1 i{
-    font-size: 1.5rem;
-}
-.isi-1 p{
-    height: 0;
-    width: 15.5vw;
-    border: 1px black solid;
-}
-.box-1 h1{
-    margin-top: 2vh;
-    font-size: 2rem;
-}
-.box-1 p{
-    margin-top: 2vh;
-}
-.box-1 p u{
-    font-weight: bolder;
-}
-.box-1:nth-child(2){
-    margin-left: 3vw;
-}
-.info-kiri{
-    display: flex;
-    position: relative;
-}
-.plus{
-    position: absolute;
-    top: 13vh;
-    left: -2vw;
-}
-.plus h2{
-    font-size: 5rem;
-}
-.gambar-kiri{
+  }
+  nav .isi .navbar button {
+    display: block;
+    width: 10vw;
+    height: 5vh;
+    background-color: black;
+    border: 2px gray solid;
+    margin-left: 45vw;
+    border-radius: 10px;
+  }
+  nav .isi .navbar button a i {
+    color: white;
+  }
+  main {
     display: flex;
     flex-direction: column;
-    justify-content: center
-}
-.gambar-1{
-    background-image: url(../../resource/img/pesiwit.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 18vw;
-    border-radius: 20px;
-}
-.gambar-1 .satu{
+  }
+  main .info-kiri .plus {
+    display: none;
+  }
+  main .info-kiri {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    color:  white;
-    font-size: small;
-}
-.satu h3{
-    margin-top: 2vh;
-}
-.satu i{
-    margin-top: 2vh;
-}
-.gambar-1 .dua{
+    flex-direction: column;
+  }
+  main .info-kanan .atas button {
+    width: 40vw;
+  }
+  main .info-kanan .bawah {
+    width: 100vw;
+  }
+  main .info-kanan .bawah h1 {
+    font-size: 3.5rem;
+  }
+  main .info-kanan .bawahlagi {
+    width: 80vw;
+  }
+  main .info-kanan .palingbawah button {
+    width: 90vw;
+  }
+  main .box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    margin-top: 15vh;
-    color:  white;
-}
-.dua h2{
-    width: 3vw;
-    font-size:1.5rem;
-}
-.dua .panah{
-    border: 2px white solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2vw;
-    height: 4vh;
-    border-radius: 50%;
-}
-.gambar-2{
-    margin-top: 2vh;
-    height: 35vh;
-    width: 18vw;
-    background-color: black;
-    border-radius: 20px;
-}
-.tiga{
-    border-bottom: 2px gray dotted;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 13vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    color: white;
-
-}
-.empat{
-    border-bottom: 2px gray dotted;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7vh;
-    margin-top: 6vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    color: white;
-}
-.empat h2 u{
-    text-decoration: none;
-}
-.lima{
-    border-bottom: 2px gray dotted;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    color: white;
-}
-.kanan-1{
-    margin-left: 1vw;
-    width: 20vw;
-    height: 35vh;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-}
-.enam{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    margin-top: 1vh;
-}
-.enam h3{
-    margin-top: 1.5vh;
-}
-.enam i{
-    margin-top: 1.5vh;
-}
-.pesawat{
-    margin-top: 2vh;
-    display: flex;
-    justify-content: center;
-}
-.pesawat img{
-    border-radius: 50%;
+    flex-direction: column;
+  }
+  main .box .box-1 {
+    width: 85vw;
     height: 20vh;
+    margin-top: -3vh;
+    margin-left: 9.5vw;
+  }
+  main .box .box-1:nth-child(2) {
+    margin-left: 9.5vw;
+    margin-top: -5vh;
+    display: none;
+  }
+  main .box .box-1 p {
+    width: 75vw;
+  }
+  main .info-kiri .gambar-1 {
+    width: 90vw;
+    height: 28vh;
+    margin-left: 3vw;
+    margin-top: -4vh;
+    margin-left: 7vw;
+  }
+  main .info-kiri .gambar-1 .satu {
+    margin-left: 5vw;
+    margin-right: 7vw;
+    margin-top: 0.5vh;
+  }
+  main .info-kiri .gambar-1 .dua {
+    margin-left: 5vw;
+    margin-right: 3vw;
+  }
+  main .info-kiri .gambar-1 .panah {
     width: 10vw;
-}
-.kanan-1 h2{
-    margin-top: 2vh;
-    margin-left: 1.5vw;
-}
-.kanan-2{
-    height: 17.5vh;
-    width: 20vw;
-    margin-left: 1vw;
-    background-color: black;
-    color: white;
-    margin-top: 1vh;
-    border-radius: 20px;
-}
-.atasan{
-    display: flex;
-    position: relative;
-}
-.atasan .nama{
-    margin-left: 1.5vw;
-    /* margin-top: 1vh; */
-    height: 8.75vh;
-    width: 8.5vw;
-    display: flex;
-    align-items: center;
-}
-.atasan .bulat{
-    top: 6vh;
-    left: 9.3vw;
-    position: absolute;
-    display: flex;
-    border: 2px gray solid;
-    height: 3vh;
-    width: 1.5vw;
-    border-radius: 50%;
-}
-.bawahan{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-}
-.kota{
-    height: 8.7vh;
-    width: 9vw;
-    display: flex;
-    align-items: center;
-}
-.jam{
-    height: 8.7vh;
-    width: 9vw;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    border-left: 2px gray dotted;
-}
-.kanan-2:nth-child(3){
-    background-color: rgb(184, 184, 184);
-    color: black;
-}
-.kanan-2:nth-child(3) .jam{
-    border-left: none;
-}
-.kanan-2:nth-child(3) .atasan .nama{
-    width: 8.65vw;
-    border-right: 2px gray dotted;
-}
-.kanan-2:nth-child(3) .atasan .bulat{
-    top: 8.5vh;
-}
-.barcode{
-    height: 25vh;
-    width: 20vw;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    background-color:white;
-    border-radius: 20px;
-}
-.barcode .fly{
-    margin-left: 0.5vw;
-    margin-right: 0.5;
     height: 5vh;
-    width: 19vw;
-    display: flex;
-    align-items: center;
-    border-bottom: 2px gray dotted;
-}
-.barcode .fly p{
-    margin-top: 1vh;
-}
-.tanggal{
-    margin-top: 5vh;
-    margin-left: 1vh;
-    margin-right: 1vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.qr{
-    display: flex;
-    justify-content: center;
-}
-.qr img{
-    margin-top: 1vw;
-    height: 8vh;
-    width: 18vw;
-}
-@media (max-width:600px){
-    nav{
-        width: 95vw;
-    }
-    nav .isi .tengah{
-        display: none;
-    }
-    vav .isi .kanan button{
-        display: none;
-    }
-    nav .kiri{
-        width: 50vw;
-    }
-    nav .isi .navbar button {
-        display: block;
-        width: 10vw;
-        height: 5vh;
-        background-color: black;
-        border: 2px gray solid;
-        margin-left: 45vw;
-        border-radius: 10px;
-    }
-    nav .isi .navbar button a i{
-        color: white;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-    }
-    main .info-kiri .plus{
-        display: none;
-    }
-    main .info-kiri{
-        display: flex;
-        flex-direction: column;
-    }
-    main .info-kanan .atas button{
-        width: 40vw;
-    }
-    main .info-kanan .bawah{
-        width: 100vw;
-    }
-    main .info-kanan .bawah h1{
-        font-size: 3.5rem;
-    }
-    main .info-kanan .bawahlagi{
-        width: 80vw;
-    }
-    main .info-kanan .palingbawah button{
-        width: 90vw;
-    }
-    main .box{
-        display: flex;
-        flex-direction: column;
-    }
-    main .box .box-1{
-        width: 85vw;
-        height: 20vh;
-        margin-top: -3vh;
-        margin-left: 9.5vw;
-    }
-    main .box .box-1:nth-child(2){
-        margin-left: 9.5vw;
-        margin-top: -5vh;
-        display: none;
-    }
-    main .box .box-1 p{
-        width: 75vw;
-    }
-    main .info-kiri .gambar-1{
-        width: 90vw;
-        height: 28vh;
-        margin-left: 3vw;
-        margin-top: -4vh;
-        margin-left: 7vw;
-    }
-    main .info-kiri .gambar-1 .satu{
-        margin-left: 5vw;
-        margin-right: 7vw;
-        margin-top: 0.5vh;
-    }
-    main .info-kiri .gambar-1 .dua{
-        margin-left: 5vw;
-        margin-right: 3vw;
-        
-    }
-    main .info-kiri .gambar-1 .panah{
-        width: 10vw;
-        height: 5vh;
-    }
-    main .info-kiri .gambar-2{
-         width: 90vw;
-        margin-left: 7vw;
-        height: 28vh;
-    }
-    main .info-kiri .gambar-2 .tiga{
-        margin-left: 2vw;
-        margin-right: 2vw;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    main .info-kiri .gambar-2 .empat{
-        margin-top: 1.5vh;
-        font-size: 0.5rem;
-    }
-    main .info-kiri .gambar-2 .lima{
-        font-size: 0.5rem;
-    }
-    main .gambar-kanan .kanan-1{
-        width: 90vw;
-        height: 28vh;
-        margin-left: 7vw;
-    }
-    main .gambar-kanan .kanan-1 .enam{
-        font-size: 0.8rem;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    main .gambar-kanan .kanan-1 .pesawat img{
-        width: 30vw;
-        height: 15vh;
-    } 
-    main .gambar-kanan .kanan-1 h2{
-        font-size: 1rem;
-        margin-left: 5vw;
-    }
-    main .gambar-kanan .kanan-2{
-        width: 90vw;
-        height: 15vh;
-        margin-left: 7vw;
-    }
-    main .gambar-kanan .kanan-2 .atasan .nama{
-        font-size: 0.8rem;
-        width: 40.5vw;
-        height: 7vh;
-        margin-left: 5vw;
-    }
-    main .gambar-kanan .kanan-2 .atasan .bulat{
-        width: 5vw;
-        height: 2.5vh;
-        left: 42.8vw;
-        margin-top: -1.3vh;
-    }
-    main .gambar-kanan .kanan-2 .bawahan{
-        margin-top: 0.5vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    main .gambar-kanan .kanan-2 .bawahan .kota{
-        width: 42.5vw;
-        height: 7vh;
-    }
-    main .gambar-kanan .kanan-2 .bawahan .jam{
-        width: 42.5vw;
-        height: 7vh;
-    }
-    main .gambar-kanan .barcode{
-        width: 90vw;
-        height: 22vh;
-        margin-left: 7vw;
-        margin-bottom: 5vh;
-    }
-    main .gambar-kanan .barcode .fly{
-        width: 80vw;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    main .gambar-kanan .barcode .tanggal{
-        font-size: 0.8rem;
-    }
-    main .gambar-kanan .barcode .qr{
-        margin-top: 2vh;
-    }
-    main .gambar-kanan .barcode .qr img{
-        width: 75vw;
-        height: 5vh;
-    }
-
+  }
+  main .info-kiri .gambar-2 {
+    width: 90vw;
+    margin-left: 7vw;
+    height: 28vh;
+  }
+  main .info-kiri .gambar-2 .tiga {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 10vh;
+    font-size: 1rem;
+  }
+  main .info-kiri .gambar-2 .empat {
+    margin-top: 1.5vh;
+    font-size: 0.5rem;
+  }
+  main .info-kiri .gambar-2 .lima {
+    font-size: 0.5rem;
+  }
+  main .gambar-kanan .kanan-1 {
+    width: 90vw;
+    height: 28vh;
+    margin-left: 7vw;
+  }
+  main .gambar-kanan .kanan-1 .enam {
+    font-size: 0.8rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  main .gambar-kanan .kanan-1 .pesawat img {
+    width: 30vw;
+    height: 15vh;
+  }
+  main .gambar-kanan .kanan-1 h2 {
+    font-size: 1rem;
+    margin-left: 5vw;
+  }
+  main .gambar-kanan .kanan-2 {
+    width: 90vw;
+    height: 15vh;
+    margin-left: 7vw;
+  }
+  main .gambar-kanan .kanan-2 .atasan .nama {
+    font-size: 0.8rem;
+    width: 40.5vw;
+    height: 7vh;
+    margin-left: 5vw;
+  }
+  main .gambar-kanan .kanan-2 .atasan .bulat {
+    width: 5vw;
+    height: 2.5vh;
+    left: 42.8vw;
+    margin-top: -1.3vh;
+  }
+  main .gambar-kanan .kanan-2 .bawahan {
+    margin-top: 0.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  main .gambar-kanan .kanan-2 .bawahan .kota {
+    width: 42.5vw;
+    height: 7vh;
+  }
+  main .gambar-kanan .kanan-2 .bawahan .jam {
+    width: 42.5vw;
+    height: 7vh;
+  }
+  main .gambar-kanan .barcode {
+    width: 90vw;
+    height: 22vh;
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+  }
+  main .gambar-kanan .barcode .fly {
+    width: 80vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  main .gambar-kanan .barcode .tanggal {
+    font-size: 0.8rem;
+  }
+  main .gambar-kanan .barcode .qr {
+    margin-top: 2vh;
+  }
+  main .gambar-kanan .barcode .qr img {
+    width: 75vw;
+    height: 5vh;
+  }
 }

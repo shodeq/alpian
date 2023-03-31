@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #C2C9D1;
+}
+nav{
+    padding: 20px 40px 20px 40px;
+}
+.navbar{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px rgba(128, 128, 128, 0.493) solid;
+}
+.navbars{
+    display: none;
+}
+.atas-kiri{
+    width: 40%;
+}
+.atas-kiri ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.atas-kiri ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 25%;
+    border-radius: 20px;
+}
+.atas-tengah{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atas-tengah p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.atas-tengah p i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.atas-kanan{
+    width: 40%;
+}
+.atas-kanan ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+}
+.atas-kanan ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 25%;
+    border-radius: 20px;
+}
+.atas-2 ul li:hover{
+    background-color: black; color: white;
+}
+main{
+    display: flex;
+}
+.kiri{
+    width: 50%;
+}
+.judul{
+    width: 100%;
+    position: relative;
+    padding: 60px 0 40px 60px;
+    border-bottom: 2px rgba(128, 128, 128, 0.493) solid;
+}
+.judul h1{
+    font-size: 3.5rem;
+    width: 75%;
+}
+.bulat{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px; 
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    right: -65px;
+    bottom: -65px;
+}
+.bulat p{
+    font-size: small;
+    width: 80%;
+    text-align: center;
+}
+.coba{
+    width: 100%;
+    padding: 20px 0 0 60px;
+}
+.coba p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.coba p i{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.hero{
+    width: 100%;
+    padding-left: 60px;
+}
+.pick{
+    border-bottom: 2px rgba(128, 128, 128, 0.425) solid;
+    width: 65%;
+    padding: 70px 0 10px 0
+}
+.pick p{
+    display: flex;
+    align-items: center;
+}
+.pick p i{
+    margin-left: 10px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
+.nana{
+    width: 80%;
+    margin-top: 30px;
+    border-right: 5px gray solid;
+    display: flex;
+    justify-content: space-between;
+}
+.gambar-1{
+    width: 45%;
+}
+.gambar-1:nth-child(2){
+    margin-left: 20px;
+}
+.kotak{
+    background-image: url(../assests/img/cewe-putih.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 10px;
+    border-radius: 20px;
+}
+.gambar-1:nth-child(2){
+    margin-right: 20px;
+}
+.gambar-1:nth-child(2) .kotak{
+    background-image: url(../assests/img/cewe-hitam.jpg);
+}
+.kotak i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+.angka{
+    width: 100%;
+    padding-top: 20px;
+}
+.angka h1{
+    font-size: 3rem;
+}
+.kanan{
+    width: 50%;
+}
+.kanan-satu{
+    width: 100%;
+    padding-right: 70px;
+}
+.edit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.edit img{
+    height: 350px;
+    width: 45%;
+    border-radius: 20px;
+}
+.spek{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+.hooh{
+    width: 45%;
+}
+.meter{
+    width: 35%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    padding: 7px;
+    background-color: rgba(128, 128, 128, 0.349);
+}
+.meter h4{
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    background-color: rgba(128, 128, 128, 0.349);
+    padding: 20px;
+    border-radius: 0 20px 20px 20px;
+    height: 120px;
+}
+.map{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.tank{
+    width: 45%;
+}
+.tank ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+.tank ul li{
+margin-left: 10px;
+}
+.tank ul li:nth-child(1){
+    margin-left: 0;
+}
+.tank ul li:nth-child(4){
+    margin-left: 130px;
+}
+.tank ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.kanan-dua{
+    width: 100%;
+    background-color:  #727C88;
+    padding: 8px;
+    border-radius: 20px;
+}
+.dalam-kanan{
+    width: 100%;
+    display: flex;
+}
+.dalam-satu{
+    width: 30%;
+    background-color: #C2C9D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+.dalam-satu p:nth-child(2){
+    display: none;
+}
+.dalam-satu p{
+    background-color: #727C88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    color: white;
+    border-radius: 30px;
+}
+.dalam-satu p i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.dalam-dua{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C2C9D1;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+.dalam-dua h1{
+    font-size: 2rem;
+    color: white;
+}
+.dalam-dua i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 2px white solid;
+    background-color: #C2C9D1;
+    color: white;
+    border-radius: 50%;
+}
+@media only screen and (max-width:764px) {
+    *{width: 100%;}
+    .navbar{
+        width: 100%;
+        padding: 0;
+    }
+    .atas-kiri{
+        display: none;
+    }
+    .atas-kanan{
+        display: none;
+    }
+    .atas-tengah{
+        width: 50%;
+    }
+    .atas-tengah p i{
+        width: 40px;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbars{
+        display: block;
+        padding: 20px;
+    }
+    .navbars button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-left: 80%;
+        background-color: #727C88;
+        border-radius: 50%;
+        border: none;
+        margin-top: 5px;
+    }
+    .navbars button a i{
+        font-size: 1.5rem;
+        color: black;
+    }
+    main{
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+    }
+    .kanan{
+        width: 100%;
+    }
+    .judul{
+        padding: 0 40px 70px 40px;
+    }
+    .bulat{
+        right: 120px;
+    }
+    .bulat h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .coba{
+        padding: 80px 30px 0 30px;
+    }
+    .hero{
+        padding: 30px;
+    }
+    .pick{
+        width: 100%;
+    }
+    .nana{
+        border-right: none;
+        width: 100%;
+    }
+    .gambar-1:nth-child(2){
+        margin-right: 0;
+    }
+    .kanan-satu{
+        padding: 50px;
+    }
+    .edit{
+        width: 100%;
+        justify-content: center;
+    }
+    .edit img{
+        width: 100%;
+    }
+    .spek{
+        width: 100%;
+    }
+    .hooh{
+        width: 100%;
+    }
+    .tank ul li:nth-child(4){
+        margin-left: 0;
+    }
+    .map{
+        width: 100%;
+    }
+    .tank{
+        width: 100%;
+    }
+    .tank ul li{
+        margin-left: -40px;
+    }
+    .tank ul li:nth-child(4){
+        display: flex;
+        justify-content: flex-end;
+    }
+    .dalam-satu p:nth-child(1){
+        display: none;
+    }
+    .dalam-satu p:nth-child(2){
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+

@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0d8d6;
+}
+#atas{
+    display: flex;
+    justify-content: space-between;
+}
+.atas-kiri{
+    border: 1px #d2cac8 solid;
+    padding: 25px;
+    width: 30%;
+}
+.atas-kiri h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        gap: 10px;
+    }
+    .atas-kiri h1 i{
+    font-size: 1.8rem;
+    color: red;
+}
+.atas-tengah{
+    border: 1px #d2cac8 solid;
+    width: 40%;
+}
+.atas-tengah ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.atas-tengah ul li{
+    font-size: 0.8rem;
+}
+.atas-tengah ul li:hover{
+    height: 40px;
+    width: 30%;
+    background-color: #362e2c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.atas-kanan{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+    border: 1px #d2cac8 solid;
+}
+.atas-kanan h1{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 20px;
+}
+.atas-kanan h1 i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+.tengah-kiri{
+    width: 70%;
+    display: flex;
+}
+.sisi-kiri{
+    width: 43%;
+}
+.kiri-satu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #d2cac8 solid;
+}
+.kiri-satu h4{
+    height: 350px;
+    padding: 90px;
+    padding-left: 60px;
+    line-height: 25px;
+}
+.kiri-dua{
+    width: 100%;
+    height: 65%;
+    padding: 60px;
+    border: 1px #d2cac8 solid;
+}
+.gambar{
+    width: 100%;
+}
+.gambar ul{
+    display: flex;
+    list-style: none;
+}
+.gambar ul li img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #322a28;
+}
+.gambar ul li:nth-child(2) img{
+    margin-left: -10px;
+    background-color: #719399;
+}
+.inpo{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.sisi-kanan{
+    width: 57%;
+    height: 355px;
+}
+.kanan-satu{
+    border: 1px #d2cac8 solid;
+}
+.bintang{
+    width: 100%;
+}
+.bintang i{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: #372f2d;
+    color: #e0d8d6;
+}
+.judul{
+    width: 100%;
+}
+.judul p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4rem;
+}
+.judul h1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 7.5rem;
+}
+.plus{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus h1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus p{
+    height: 68px;
+    width: 70px;
+    background-color: #372f2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus p i{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0d8d6;
+}
+.kanan-dua{
+    width: 100%;
+    border: 1px #d2cac8 solid;
+}
+.kanan-dua img{
+    width: 100%;
+    margin-top: -100px;
+}
+#tengah{
+    display: flex;
+}
+.tengah-kanan{
+    width: 30%;
+}
+.jenggot{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px #d2cac8 solid;
+}
+.jenggot img{
+    width: 100%;
+    height: 300px;
+    background-color: #c2b9b4;
+}
+.jenggot h1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.jenggot h1 p{
+    color: red;
+    font-size: 1rem;
+}
+.jenggot h2{
+    font-size: 1.3rem;
+}
+.kotak{
+    width: 100%;
+    padding: 70px;
+    border: 1px #d2cac8 solid;
+}
+.isi-satu{
+    width: 100%;
+}
+.isi-satu ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.isi-satu ul li {
+    border: 2px #362e2c solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+}
+.isi-satu ul li:nth-child(1){
+    width: 20%;
+}
+.isi-satu ul li:nth-child(2){
+    width: 40%;
+}
+.isi-satu ul li:nth-child(3){
+    width: 40%;
+}
+.isi-satu ul li:hover{
+    background-color: #362e2c;
+    color: white;
+}
+.isi-dua{
+    width: 100%;
+    padding-top: 10px;
+}
+.isi-dua ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.isi-dua ul li{
+    border: 2px #362e2c solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+}
+.isi-dua ul li:nth-child(1){
+    width: 40%;
+}
+.isi-dua ul li:nth-child(2){
+    width: 40%;
+}
+.isi-dua ul li:nth-child(3){
+    width: 20%;
+}
+.isi-dua ul li:hover{
+    background-color: #362e2c;
+    color: white;
+}
+

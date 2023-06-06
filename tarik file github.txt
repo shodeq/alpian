@@ -1,0 +1,119 @@
+urutan clone repo git
+
+$ git clone https://github.com/shodeq/vanilla.git(foldere kosong)
+
+$ git remote -v (untuk melihat folder terhubung pada repo mana saja)
+
+origin  https://github.com/shodeq/vanilla.git (fetch)
+origin  https://github.com/shodeq/vanilla.git (push)
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git remote add kakek https://github.com/avnexcode/vanilla.git (untuk menghubungkan langsung ke repo setelah add di beri nama untuk remote utama)
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git remote -v(untuk melihat folder terhubung pada repo mana saja)
+kakek   https://github.com/avnexcode/vanilla.git (fetch)
+kakek   https://github.com/avnexcode/vanilla.git (push)
+origin  https://github.com/shodeq/vanilla.git (fetch)
+origin  https://github.com/shodeq/vanilla.git (push)
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git log --all --decorate --oneline --graph (melihat posisi comid)
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git fetch kakek (untuk menarik data dari repo utama)
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 280 bytes | 1024 bytes/s, done.
+From https://github.com/avnexcode/vanilla
+ * [new branch]      main       -> kakek/main
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git log --all --decorate --oneline --graph
+* 169cd33 (kakek/main) asd
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ alias graph=git log --all --oneline --decorate --graph
+bash: alias: log: not found
+bash: alias: --all: not found
+bash: alias: --oneline: not found
+bash: alias: --decorate: not found
+bash: alias: --graph: not found
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ alias graph="git log --all --oneline --decorate --graph"
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ graph
+* 169cd33 (kakek/main) asd
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git merge kakek/main(untuk menyatukan file dari repo utama ke repo kita)
+Updating fa26145..169cd33
+Fast-forward
+ 0. Variable/01.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Writing objects: 100% (4/4), 300 bytes | 150.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shodeq/vanilla.git
+   fa26145..169cd33  main -> main
+branch 'main' set up to track 'origin/main'.
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ graph 
+* 169cd33 (HEAD -> main, origin/main, origin/HEAD, kakek/main) asd
+* fa26145 asd
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git fetch kakek
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), 1.17 KiB | 2.00 KiB/s, done.
+From https://github.com/avnexcode/vanilla
+   169cd33..cfd6297  main       -> kakek/main
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git merge kakek/main
+Updating 169cd33..cfd6297
+Fast-forward
+ 0. Variable/01.js               | 20 +++++++++++++++++++-
+ 1. Pop-up-box/01.js             |  0
+ node_modules/.package-lock.json |  6 ++++++
+ node_modules/.yarn-integrity    | 10 ++++++++++
+ package-lock.json               |  6 ++++++
+ package.json                    | 13 +++++++++++++
+ yarn.lock                       |  4 ++++
+ 7 files changed, 58 insertions(+), 1 deletion(-)
+ create mode 100644 1. Pop-up-box/01.js
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/.yarn-integrity
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 yarn.lock
+
+LENOVO@DESKTOP-59TI118 MINGW64 /e/mengulang/git.js/vanilla (main)
+$ git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.19 KiB | 406.00 KiB/s, done.
+Total 11 (delta 0), reused 2 (delta 0), pack-reused 0
+To https://github.com/shodeq/vanilla.git
+   169cd33..cfd6297  main -> main
+branch 'main' set up to track 'origin/main'

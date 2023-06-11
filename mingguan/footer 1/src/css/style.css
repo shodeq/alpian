@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+.up {
+    display: flex;
+    border-bottom: 2px #dcdbdb solid;
+}
+
+.deskrip {
+    width: 35%;
+    padding: 30px;
+}
+
+.logo img {
+    width: 27%;
+}
+
+.blabla {
+    width: 88%;
+    margin-top: 15px;
+    font-size: 12.5px;
+}
+
+.kontak {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ikon {
+    margin-top: 7px;
+}
+
+.ikon button {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1.2px black solid;
+    border-radius: 50%;
+}
+
+.ikon button a {
+    text-decoration: none;
+    color: black;
+}
+
+.cal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cal h4 {
+    margin-top: 7px;
+}
+
+.sabkreb {
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px #dcdbdb solid;
+    border-right: 2px #dcdbdb solid;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub h2 {
+    font-size: 18px;
+}
+
+.sub p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.imel {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 231px;
+    height: 30px;
+    padding: 10px;
+    border: 1.7px #afafaf solid;
+    background-color: #dddbdb88;
+    outline: none;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.but {
+    margin-top: 11px;
+}
+
+.but button {
+    padding: 9px 88px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d1539d;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.but button a {
+    text-decoration: none;
+    color: white;
+}
+
+.infor {
+    width: 35%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    margin-top: 10px;
+}
+
+.menu ul li {
+    height: 22px;
+    list-style-type: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.inf ul {
+    margin-top: 10px;
+}
+
+.inf ul li {
+    list-style-type: none;
+    height: 22px;
+}
+
+.inf ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.don {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goon {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.goon i {
+    color: #afafaf;
+}

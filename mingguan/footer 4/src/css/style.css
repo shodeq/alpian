@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 50px;
+    background: rgb(53,110,154);
+background: linear-gradient(90deg, rgba(53,110,154,1) 12%, rgba(132,108,152,1) 48%, rgba(226,125,161,1) 87%);
+}
+#atas{
+    width: 100%;
+    display: flex;
+    border-bottom: 4px black solid;
+}
+.kiri{
+    width: 30%;
+}
+.kiri h1{
+    display: flex;
+    align-items: center;
+}
+.kiri h1 img{
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+}
+.tengah{
+    width: 40%;
+}
+.tengah ul{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+}
+.tengah ul li a{
+    text-decoration: none;
+    color: black;
+}
+.kanan{
+    width: 30%;
+}
+.kanan ul{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 20px;
+}
+.kanan ul li a{
+    text-decoration: none;
+}
+.kanan ul li a i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+#bawah{
+    width: 100%;
+    padding: 10px;
+}
+.mail{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub button{
+    width: 20%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.066);
+}
+.email{
+    width: 50%;
+    padding-left: 30px;
+}
+.email input{
+    height: 30px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.189);
+}
+.email input::placeholder{
+    color: black;
+}
+#ngisor{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+

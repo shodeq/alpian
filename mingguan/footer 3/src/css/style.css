@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+}
+.judul{
+    width: 100%;
+    padding-top: 30px;
+}
+.judul h1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.judul h1 b{
+    font-size: 2rem;
+    color: aqua;
+}
+.judul ul{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.judul ul li a{
+    text-decoration: none;
+}
+.judul ul li a i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px aqua solid;
+    border-radius: 30%;
+    font-size: 1.2rem;
+    color: aqua;
+}
+.chek{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+.isi-1{
+    color: aqua;
+}
+.in-1{
+    display: flex;
+    align-items: center;
+}
+.in-1 i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: aqua;
+}
+.inpo{
+    width: 100%;
+    padding-top: 30px;
+}
+.inpo ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.inpo ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.kontak{
+    width: 100%;
+    padding-top: 30px;
+}
+.kontak ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    background-color: aqua;
+    padding: 20px;
+}
+.kontak ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.kontak ul li a i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 2px black solid;
+    border-radius: 50%;
+}

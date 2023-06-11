@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background: rgb(13,16,28);
+background: linear-gradient(90deg, rgba(13,16,28,1) 17%, rgba(63,95,144,1) 52%, rgba(94,116,150,1) 86%);
+}
+#atas{
+    width: 100%;
+    padding: 50px;
+}
+.isi-1{
+    width: 100%;
+    border-bottom: 5px gray solid;
+}
+.isi-1 h1{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.isi-1 ul{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.isi-1 ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+#bawah{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.info{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.info p{
+    width: 35%;
+    color: white;
+}
+.info p:nth-child(1){
+    margin-bottom: 10px
+}
+.info p:nth-child(3){
+    border-bottom: 3px gray solid;
+}
+.link{
+    width: 30%;
+}
+.link p{
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+}
+.link p b{
+    font-size: 1.1rem;
+    color: white;
+}
+.link ul{
+    width: 100%;
+}
+.link ul li{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.link ul li a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    width: 35%;
+}
+.login p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: white;
+}
+.mail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.email{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 4px gray solid;
+}
+.email i{
+    color: white;
+}
+.email input{
+    height: 25px;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.email input::placeholder{
+    color:white;
+}
+.sosmed{
+    width: 100%;
+}
+.sosmed ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+.sosmed ul li a{
+    text-decoration: none;
+}
+.sosmed ul li a i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px gray solid;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}

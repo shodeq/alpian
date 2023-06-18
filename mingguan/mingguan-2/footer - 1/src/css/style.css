@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+}
+#atas{
+    width: 100%;
+}
+#atas h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+#atas p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+#tengah{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: gray;
+}
+.sub button{
+    height: 35px;
+    width: 20%;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: gray;
+}
+.sub input{
+    width: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+.sub input::placeholder{
+    color: aqua;
+    border: none;
+    border: none;
+}
+#bawah{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.kiri{
+    width: 30%;
+}
+.kiri p{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.tengah{
+    width: 40%;
+}
+.tengah ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tengah ul li a{
+    text-decoration: none;
+}
+.tengah ul li a i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 2px aqua solid;
+    border-radius: 10px;
+    color: aqua;
+    background-color: black;
+}
+.kanan{
+    width: 30%;
+}
+.kanan p{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: gray;
+}

@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    padding: 50px;
+}
+#kiri{
+    width: 25%;
+}
+.atas{
+    width: 100%;
+}
+.atas h3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.atas ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    color: greenyellow;
+}
+.bawah{
+    width: 100%;
+    padding-top: 60px;
+}
+.bawah h3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.bawah p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+.bawah p a{
+    padding-left: 5px;
+    text-decoration: none;
+}
+.bawah p a i{
+    border: 2px greenyellow solid;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+#tengah{
+    width: 25%;
+}
+.isi-1{
+    width: 100%;
+}
+.isi-1 h3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.isi-1 ul{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 5px;
+}
+.isi-1 ul li{
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+}
+.isi-1 ul li a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+.isi-1 ul li a i{
+    border: 2px greenyellow solid;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+.isi-2{
+    width: 100%;
+}
+.isi-2 h3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.isi-2 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    list-style-type: none;
+}
+.isi-2 ul li a{
+    text-decoration: none;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.isi-2 ul li a i{
+    border: 2px greenyellow solid;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+#kanan{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+#kanan h1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: yellow;
+}
+#kanan p{
+    width: 80%;
+    text-align: end;
+    padding-bottom: 20px;
+    color: greenyellow;
+}
+.sub{
+    width: 60%;
+    border: 2px greenyellow solid;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+    gap: 5px;
+    border-radius: 15px;
+}
+.sub input{
+    width: 60%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.sub input::placeholder{
+    border: none;
+}
+.sub button{
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    background-color: yellow;
+}

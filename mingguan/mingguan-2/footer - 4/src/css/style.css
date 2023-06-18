@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+}
+#atas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    border: 2px aqua solid;
+    width: 50%;
+    display: flex;
+    border-radius: 30px;
+}
+.sub input{
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: none;
+    font-size: 1.1rem;
+    background-color: black;
+    color:gray;
+}
+.sub input::placeholder{
+    color: gray;
+}
+.sub button{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-size: 1.2rem;
+    border: none;
+    color: gray;
+}
+#tengah{
+    width: 100%;
+    display: flex;
+}
+.kiri{
+    width: 30%;
+}
+.kiri h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: gray;
+}
+.kiri ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.kiri ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.tengah{
+    width: 30%;
+}
+.tengah h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: gray;
+}
+.tengah ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.tengah ul li a{
+    text-decoration: none;
+    color: aqua
+}
+.kanan{
+    width: 40%;
+}
+.kanan h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: gray;
+}
+.kanan ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+.kanan ul li img{
+    height: 60px;
+    width: 80px;
+}
+#bawah{
+    width: 100%;
+    padding: 30px;
+}
+.isi{
+    width: 100%;
+    display: flex;
+    border-top: 3px gray solid;
+    padding-top: 20px;
+}
+.isi p{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.isi ul{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style-type: none;
+}
+.isi ul li a{
+    text-decoration: none;
+}
+.isi ul li a i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: gray;
+}

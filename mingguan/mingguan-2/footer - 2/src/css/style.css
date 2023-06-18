@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(63,95,144,1) 0%);
+padding: 30px;
+}
+#atas{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+.kiri{
+    width: 40%;
+}
+.kiri h1{
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+}
+.kiri p{
+    width: 70%;
+    color: white;
+}
+.tengah{
+    width: 60%;
+    display: flex;
+}
+.isi-1{
+    width: 30%;
+}
+.isi-1 p b{
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 20px;
+}.isi-1 ul{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.isi-1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.isi-2{
+    width: 30%;
+}
+.isi-2 p:nth-child(1){
+    padding-bottom: 20px;
+}
+.isi-2 p:nth-child(4) a{
+    text-decoration: none;
+    color: white;
+}
+.isi-2 p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.isi-3{
+    width: 30%;
+}
+.isi-3 p:nth-child(1){
+    padding-bottom: 20px;
+}
+.isi-3 p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#bawah{
+    width: 100%;
+    padding-top: 30px;
+    border-top: 5px gray solid;
+}
+#bawah ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+#bawah ul li a{
+    text-decoration: none;
+}
+#bawah ul li a i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.3rem;
+}

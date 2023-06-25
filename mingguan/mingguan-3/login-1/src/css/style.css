@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assests/img/background\ gunung.jpg);
+    background-size: cover;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+#bungkus{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+}
+#bungkus h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.dalam{
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.569);
+    border-radius: 20px;
+}
+.atas{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+.atas p{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+.mail input{
+    width: 100%;
+    height: 30px;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mail i{
+    color: gray;
+    padding-right: 10px;
+}
+.bawah{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+.bawah p{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.pass{
+    display: flex;
+    align-items: center;
+}
+.pass input{
+    width: 100%;
+    height: 30px;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.pass i{
+    color: gray;
+    margin-right: 10px;
+}
+.log{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.log button{
+    height: 30px;
+    width: 40%;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+#bungkus p:nth-child(3){
+    padding-top: 20px;
+}
+#bungkus p:nth-child(3) a{
+    color: black;
+}
+

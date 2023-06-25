@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assests/img/background\ kayang.jpg);
+    background-size: cover;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+#bungkus{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.judul{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.judul h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.judul button{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.541);
+    cursor: pointer;
+}
+.judul button i{
+    display: flex;
+    font-size: 1.1rem;
+}
+.atas{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.atas .garis{
+    width: 30%;
+    border: 2px gray solid;
+    height: 0;
+}
+.atas p{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.tengah{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mail{
+    width: 100%;
+    border: 2px gray solid;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.mail i{
+    padding-left: 10px;
+    font-size: 1rem;
+    color: gray;
+}
+.mail input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0);
+}
+.pass{
+    width: 100%;
+    border: 2px gray solid;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.pass i{
+    padding-left: 10px;
+    font-size: 1rem;
+    color: gray;
+}
+.pass input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0);
+}
+.cek{
+    width: 80%;
+    padding: 10px;
+}
+.cek a{
+    color: blue;
+}
+.isi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.masuk{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.masuk button{
+    width: 50%;
+    height: 30px;
+    font-size: 0.8rem;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.last{
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.last a{
+    color: blue;
+}

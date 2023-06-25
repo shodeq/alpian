@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assests/img/pulau\ background.jpg);
+    background-size: cover;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+#bungkus{
+    padding-top: 20px;
+    width: 35%;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 30px;
+}
+.atas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.atas h1{
+    width: 100%;
+    font-size: 2.5rem;
+}
+.tengah{
+    width: 80%;
+    padding-top: 30px;
+}
+.isi-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.isi-1 h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    width: 100%;
+    border: 2px blue solid;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.mail i{
+    height: 30px ;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px blue solid;
+}
+.mail input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.isi-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.isi-2 h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pass{
+    width: 100%;
+    border: 2px blue solid;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.pass i{
+    height: 30px ;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px blue solid;
+}
+.pass input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.cek{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bawah{
+    width: 80%;
+    padding-top: 20px;
+}
+.in{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.in button{
+    width: 60%;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sosmed{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sosmed ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.sosmed ul li{
+    width: 30%;
+}
+.sosmed ul li a{
+    text-decoration: none;
+}
+.sosmed ul li a i{
+    width: 100%;
+    height: 40px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: white;
+}
+.sosmed ul li:nth-child(1) a i{
+    background-color: rgb(0, 145, 255);
+}
+.sosmed ul li:nth-child(2) a i{
+    background-color: blue;
+}
+.sosmed ul li:nth-child(3) a i{
+    background-color: red;
+}

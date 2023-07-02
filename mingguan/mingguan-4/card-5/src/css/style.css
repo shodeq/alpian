@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#bungkus{
+    width: 70%;
+    border: 2px black solid;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.kiri{
+    width: 50%;
+}
+.kiri img{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.kanan{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atas{
+    width: 100%;
+}
+.atas h1{
+    font-size: 2rem;
+}
+.atas p{
+    font-size: 1.7rem;
+}
+.bawah{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.isi-1{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+}
+.inpo h1{
+    font-size: 1.2rem;
+}
+.inpo p{
+    font-size: 1rem;
+}
+.isi-1 img{
+    height: 60px;
+    width: 60px;
+    background-color: gold;
+    border-radius: 50px;
+}
+.isi-2{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   height: 60px;
+}

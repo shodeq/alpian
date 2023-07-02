@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    gap: 5%;
+}
+#bungkus{
+    width: 20%;
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.21);
+}
+.provil{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.provil img{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.provil i{
+    display: flex;
+}
+.nama{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 5px;
+}
+.nama h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nama h1 p{
+    color: blueviolet;
+    font-size: 1rem;
+}
+.nama h5{
+    color: blueviolet;
+}
+.inpo{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.atas{
+    width: 100%;
+}
+.atas ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.atas ul li{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px blueviolet solid;
+    color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.439);
+    cursor: pointer;
+}
+.atas ul li:hover{
+    background-color: blueviolet;
+    color: black;
+    border: 2px black solid;
+}
+.bawah{
+    width: 100%;
+}
+.bawah ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bawah ul li{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px blueviolet solid;
+    color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.439);
+    cursor: pointer;
+}
+.bawah ul li:hover{
+    background-color: blueviolet;
+    color: black;
+    border: 2px black solid;
+}
+.king{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.king button{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px gray solid;
+    color: blueviolet;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.564);
+}
+.king button:hover{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}

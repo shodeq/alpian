@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assests/img/univers.png);
+    background-size: cover;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 5%;
+}
+#bungkus{
+    width: 20%;
+    border-radius: 30px;
+    padding: 10px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.mbar{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mbar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.inpo{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.inpo p{
+    width: 100%;
+    text-align: center;
+}
+.bawah{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.bawah button{
+    width: 50%;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #4971ab;
+    font-weight: bolder;
+}
+#bungkus:hover{
+    height: 450px;
+    box-shadow: 0px 0px 30px 6px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 0px 30px 6px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 0px 30px 6px rgba(255,255,255,0.75);
+    background-color: rgba(255, 255, 255, 0.582);
+    background-color: rgba(128, 128, 128, 0.505);
+}
+#bungkus:hover .bawah{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+#bungkus:nth-child(1) .mbar img{
+    background-color: blueviolet;
+}
+#bungkus:nth-child(2) .mbar img{
+    background-color: yellow;
+}
+#bungkus:nth-child(3) .mbar img{
+    background-color: palevioletred;
+}

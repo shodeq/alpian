@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 7%;
+}
+#bungkus{
+    width: 20%;
+    border: 2px black solid;
+    padding: 20px;
+    height: 280px;
+    border-radius: 30px;
+}
+.atas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.atas p:nth-child(1){
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(16, 250, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.provil{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.provil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.sosmed{
+    display: none;
+}
+#bungkus:hover .sosmed{
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+#bungkus:hover .sosmed h4{
+    width: 100%;
+    padding-left: 30px;
+}
+#bungkus:hover .sosmed ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+#bungkus:hover .sosmed ul li{
+    width: 30%;
+}
+#bungkus:hover .sosmed ul li a{
+    text-decoration: none;
+    color: black;
+}
+#bungkus:hover .sosmed ul li a i{
+    width: 100%;
+    height: 35px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+#bungkus:hover .sosmed ul li:nth-child(1):hover a{
+    color: white;
+}
+#bungkus:hover .sosmed ul li:nth-child(1):hover a i{
+    background-color: rgb(0, 166, 255);
+    border: none;
+}
+#bungkus:hover .sosmed ul li:nth-child(2):hover a{
+    color: white;
+}
+#bungkus:hover .sosmed ul li:nth-child(2):hover a i{
+    background-color: black;
+    border: none;
+}
+#bungkus:hover .sosmed ul li:nth-child(3):hover a{
+    color: red;
+}
+#bungkus:hover .sosmed ul li:nth-child(3):hover a i{
+    background-color: black;
+    border: none;
+}
+.inpo{
+    display: none;
+}
+#bungkus:hover .inpo{
+    width: 100%;
+    display: block;
+}
+#bungkus:hover .inpo p{
+    text-align: center;
+}
+.fol{
+    display: none;
+}
+#bungkus:hover .fol{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#bungkus:hover .fol button{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#bungkus:hover .fol button:hover{
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+#bungkus:hover{
+    height: 460px;
+}

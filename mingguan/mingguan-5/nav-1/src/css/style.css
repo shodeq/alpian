@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 20px;
+    width: 100%;
+}
+.atas{
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+}
+.atas ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.atas ul li{
+    border: 2px black solid;
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: gray;
+}
+.atas ul li:hover{
+    background-color: yellow;
+    font-weight: bolder;
+    border: none;
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+}
+.atas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.satu{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dalam{
+    display: none;
+}
+.satu:hover h1{
+    background-color: aqua;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.satu:hover .dalam{
+    display: block;
+    padding-top: 20px;
+}
+.satu:hover .dalam ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.satu:hover .dalam ul li{
+    height: 40px;
+    width:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.satu:hover .dalam ul li:hover{
+    background-color: black;
+    color: greenyellow;
+    font-weight: bolder;
+}

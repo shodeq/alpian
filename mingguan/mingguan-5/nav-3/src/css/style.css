@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+}
+.atas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.kiri{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.kiri i{
+    font-size: 2rem;
+}
+.kanan{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.kanan button{
+    width: 15%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.kanan button:hover{
+    background-color: blueviolet;
+    font-weight: bolder;
+}
+.bawah{
+    width: 100%;
+    padding-top: 20px;
+}
+.bawah ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.bawah ul li{
+    border: 2px black solid;
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bawah ul li:nth-child(6){
+    border: none;
+}
+.bawah ul li:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.bawah ul li:hover:nth-child(6){
+    background-color: aqua;
+}

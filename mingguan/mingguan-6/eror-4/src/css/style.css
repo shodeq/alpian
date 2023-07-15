@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.kiri{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px orangered solid;
+    border-left: none;
+    border-radius: 0 40px 40px 0;
+    gap: 10px;
+}
+.kiri h1{
+    font-size: 11rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.kiri h3{
+    font-size: 2rem;
+}
+.kiri h4{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.kiri button{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: 2px green solid;
+    color: green;
+    background-color: white;
+    cursor: pointer;
+}
+.kiri button:hover{
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.75);
+}
+.kanan{
+    width: 30%;
+    border: 5px green solid;
+    border-right: none;
+    border-radius:  40px 0 0 40px;
+}
+.kanan img{
+    width: 100%;
+    height: 500px;
+    border-radius: 30%;
+}

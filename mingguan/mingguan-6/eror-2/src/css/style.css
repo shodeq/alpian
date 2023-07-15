@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.bungkus{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    gap: 30px;
+    padding: 10px;
+    background-color: #7b79f9;
+    border-radius: 20px;
+    border: 5px white solid;
+}
+.bungkus h1{
+    font-size: 10rem;
+    letter-spacing: 30px;
+    color: white;
+}
+.bungkus h3{
+    font-size: 2rem;
+    color: white;
+}
+.bungkus button{
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #ffb84e;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.kotak{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../assests/img/ground.jpg);
+    background-size: cover;
+    padding-left: 40px;
+    border-radius: 30px;
+}
+.kotak h1{
+    font-size: 10rem;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+}
+.kotak h2{
+    font-size: 2rem;
+}
+.kotak p{
+    width: 30%;
+    text-align: center;
+
+}

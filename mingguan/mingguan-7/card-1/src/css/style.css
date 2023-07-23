@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+section{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.kotak-1{
+    width: 60%;
+    border: 2px black solid;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+}
+.kiri{
+    width: 30%;
+}
+.kotak-1:nth-child(2) .kiri img{
+    background-color: palevioletred;
+}
+.kiri img{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.kanan{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.atas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.inpo{
+    width: 100%;
+}
+.inpo p{
+    width: 70%;
+}
+.atas p:nth-child(2){
+    /* width: 30%; */
+    display: flex;
+    justify-content: flex-end;
+}
+.atas p:nth-child(2) u{
+    font-weight: bolder;
+    text-decoration: none;
+}
+.bawah{
+    width: 100%;
+    display: flex;
+}
+.dalam-1{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.dalam-1 button{
+    width: 40%;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    /* border: none; */
+}
+.dalam-1 button:hover{
+    background-color: aqua;
+    font-weight: bolder;
+    border: none;
+    color: black;
+}
+.dalam-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.kotak-1:nth-child(2) .dalam-1 button:hover{
+    background-color: palevioletred;
+}
+

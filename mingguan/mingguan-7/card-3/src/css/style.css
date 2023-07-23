@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 40px;
+}
+.kotak-1{
+    width: 25%;
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 30px;
+    background-color:rgb(56, 151, 155);
+}
+.kotak-1:hover{
+    border: none;
+    background-color:bisque;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+}
+.kotak-1:nth-child(2):hover{
+    background-color: rgb(221, 152, 255);
+}
+.kotak-1:nth-child(3):hover{
+    background-color: rgb(137, 119, 255);
+}
+.atas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.kiri{
+    width: 25%;
+}
+.kotak-1:nth-child(2) .atas .kiri img{
+    background-color:darkorchid;
+}
+.kotak-1:nth-child(3) .atas .kiri img{
+    background-color:darkslateblue;
+}
+.kiri img{
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: chocolate;
+}
+.tengah{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kanan{
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.kanan i{
+    font-size: 1.5rem;
+}
+.bawah{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bawah button{
+    width: 25%;
+    height: 25px;
+    border-radius: 20px;
+    background-color:lightskyblue;
+    cursor: pointer;
+}
+.bawah button:hover{
+    border: none;
+    background-color: chocolate;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.kotak-1:hover .atas .kanan i{
+    color: chocolate;
+}
+.kotak-1:nth-child(2):hover .atas .kanan i{
+    color: darkorchid;
+}
+.kotak-1:nth-child(3):hover .atas .kanan i{
+    color: darkslateblue;
+}
+.kotak-1:nth-child(2) .bawah button:hover{
+    background-color:darkorchid;
+}
+.kotak-1:nth-child(3) .bawah button:hover{
+    background-color:darkslateblue;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+section{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.kotak-1{
+    width: 25%;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.532);
+}
+.kotak-1:hover{
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+    border: none;
+}
+.atas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.atas i{
+    font-size: 1.5rem;
+}
+.atas i:hover{
+    color: red;
+}
+.tengah{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tengah img{
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+}
+.bawah{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dalam-1{
+    width: 60%;
+}
+.bawah button{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.bawah button:hover{
+    background-color: cadetblue;
+    border: none;
+    font-weight: bolder;
+}

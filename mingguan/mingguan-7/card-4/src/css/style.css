@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkkhaki;
+}
+section{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.kotak-1{
+    width: 20%;
+    border-radius: 20px;
+    border: 4px black solid;
+    padding-top: 200px;
+    background-image: url(../assests/img/bukit-coklat.webp);
+    background-size: cover;
+}
+.kotak-1:nth-child(2){
+    background-image: url(../assests/img/pulau\ background.jpg);
+    background-size: cover;
+}
+.kotak-1:nth-child(3){
+    background-image: url(../assests/img/gambar-kiri.jfif);
+    background-size: cover;
+}
+.kotak-1:hover{
+    box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.75);
+    border: none;
+}
+.bawah{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.bawah:hover{
+    background-color:rgba(255, 255, 255, 0.632);
+}
+.kiri{
+    width: 70%;
+}
+.kiri h1{
+    font-size: 1.3rem;
+}
+.kanan{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.kanan button{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.kanan button:hover{
+    font-weight: bolder;
+    background-color:chartreuse;
+    border: none;
+}

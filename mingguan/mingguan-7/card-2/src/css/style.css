@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 20px;
+}
+.bungkus{
+    width: 25%;
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bungkus:hover{
+    border: none;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.75);
+}
+.atas{
+    width: 100%;
+    display: flex;
+}
+.kiri{
+    width: 80%;
+}
+.bungkus:nth-child(2) .atas .kiri img{
+    background-color: purple;
+}
+.bungkus:nth-child(3) .atas .kiri img{
+    background-color:cadetblue;
+}
+.kiri img{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    border-radius: 20px;
+}
+.kanan{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.bawah{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+.isi-1{
+    width: 50%;
+}
+.isi-2{
+    width: 50%;
+}
+.isi-2 ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.isi-2 ul li:nth-child(2){
+    margin-left: -20px;
+}
+.isi-2 ul li:nth-child(3){
+    margin-left: -20px;
+}
+.isi-2 ul li img{
+    height: 35px;
+    width: 35px;
+}
+.isi-2 ul li:nth-child(1) img{
+    background-color: aqua;
+    border-radius: 50px;
+}
+.isi-2 ul li:nth-child(2) img{
+    background-color: palevioletred;
+    border-radius: 50px;
+}
+.isi-2 ul li:nth-child(3) img{
+    background-color: black;
+    border-radius: 50px;
+}
